@@ -1,0 +1,259 @@
+/*applies to all pages*/
+body {
+    margin: 5px;
+    padding: o;
+    font-size: 18px;
+    font-family: Arial, Helvetica, Helvetica Neue sans-serif;
+    /*border-bottom: 2px solid black;*/
+    max-width: 100%;
+    background-image: url("background1.gif");
+    /*background: whitesmoke;*/
+    color: gray; 
+}
+
+/*applies to all pages*/
+header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 2px solid black;
+    padding: 50px;
+}
+
+/*applies to all pages*/
+h1 {
+    color:#ffffff;
+    background: #4aaaa5;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    margin-left: 150px;
+    margin-top: 5px;
+    /*border-bottom: 2px solid #cccccc;*/
+}
+
+/*applies to all pages */
+nav {
+    color: gray;
+    list-style-type: none;
+    /*border: 2px solid yellow;*/
+    width: 300px;
+    float:right;
+    list-style-type:none;
+    font-size: 11px;
+    margin-top: -45px;
+}
+
+#activelinks {
+    text-decoration: none;
+}
+
+/*applies to all pages*/
+li {
+    display: inline;
+}
+
+/*applies to all pages*/
+h2 {
+    text-shadow: 1px 1px black;
+}
+
+/*applies to index and contact pages only*/
+.Main {
+    clear:both;
+    margin-top: 50px;
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-bottom: 50px;
+    /*border-top: 2px solid black;*/
+    background: #ffffff;
+    padding: 25px;
+}
+
+/*applies to all pages*/
+a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+/*applies to all pages*/
+a:visited {
+    color: green;
+}
+
+/*applies to all pages*/
+a:active {
+    color: greenyellow;
+    background: black;
+    transition: 0.5s;
+}
+
+/*applies to portfolio page only */
+.SecondMain {
+    clear:both;
+    margin-top: 50px;
+    margin-right: 175px;
+    margin-left: 175px;
+    margin-bottom: 50px;
+    /*border: 2px solid black;*/
+    background: #ffffff;
+    padding: 50px;
+    height: 800px;
+}
+
+/*portfolio page*/
+h3 {
+    clear: both;
+    color: #777777;
+    /*border-bottom: 2px solid lightgray;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: #4aaaa5;
+    margin: 5px;
+}
+/*.wrapper{
+    max-width: 960px;
+}*/
+
+/*applies to index page only*/
+img {
+    margin: 5px;
+    float:left;
+}
+
+/*applies to all pages*/
+h2 {
+    clear: both;
+    color: #4aaaa5;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/*applies to index and contact pages only */
+.container {
+    /*border: 2px solid black;*/
+    clear: both;
+    /*background-color: #ffffff;*/
+    /*background-image: portfolioplaceholder1.jpg;*/
+    margin-bottom: 50px;
+    margin-left: 5px;
+    line-height: 1;
+}
+
+/*applies to portfolio page only*/
+.box-set {
+    background: white;
+    text-align: center;
+    /*position: absolute;*/
+    margin-bottom: 50px;
+    margin-left: 5px;
+}
+
+/*applies to portfolio page only*/
+.box {
+    border: 2px solid lightgray;
+    /*background: #4aaaa5;*/
+    color: red;
+    float: left;
+}
+
+/*applies to portfolio page only*/
+/*
+.box-set p {
+    background: yellow;
+}*/
+
+/*applies to portfolio page only*/
+/*Hangman Box*/
+.box-1 {
+    /*border: 1px solid lightgray;*/
+    /*margin: 20px 20px 20px 100px;*/
+    height: 200px ;
+    width: 200px ;
+    /*position: relative;*/
+    /*background-image: url(assets/images/portfolioplaceholder1.jpg);*/
+}
+
+/*applies to portfolio page only*/
+/*RPG Game*/
+.box-2 {
+    /*border: 1px solid lightgray;*/
+    /*margin: 20px 180px 20px 20px;*/
+    height: 200px ;
+    width: 200px ;
+    margin: 0;
+}
+
+/*applies to portfolio page only*/
+/*Trivia Game*/
+.box-3 {
+    /*border: 1px solid lightgray;*/
+    /*margin: 20px 20px 20px 100px;*/
+    height: 200px ;
+    width: 200px ;
+}
+
+/*applies to portfolio page only*/
+/*applies to portfolio page only*/
+/*Rutgers Info Widget*/
+.box-4 {
+    /*border: 1px solid lightgray;*/
+    /*margin: 20px 180px 20px 20px;*/
+    height: 200px ;
+    width: 200px ;
+}
+
+/*applies to portfolio page only*/
+/*Rock Papers Scissors Lizard Spock*/
+.box-5 {
+    /*border: 1px solid lightgray;*/
+    /*margin: 20px 20px 20px 100px;*/
+    height: 200px ;
+    width: 200px ;
+}
+
+/*applies to portfolio page only*/
+/*to put the image the same size as the "box"*/
+.boximage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*applies to portfolio page only*/
+/*to add text to the bottom of the image box*/
+.text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+/*Part of Contact page for name/email/message */
+.response {
+    border: 1px solid  darkgray;
+    color: lightgray;
+}
+
+/*button on the contact page*/
+.button {
+    background: #4aaaa5;
+    color:white;
+    padding: 10px;
+}
+
+/*footer for all pages*/
+footer {
+    position: sticky;
+    clear:both;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+    background: rgb(143, 143, 143);
+    padding: 20px 0 5px;
+    color: #cccccc;
+    width: 100%;
+}
