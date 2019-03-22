@@ -93,9 +93,9 @@ a:active {
     margin-bottom: 50px;
     border: 2px solid black;
     background: #ffffff;
-    padding: 50px;
-    height: 1100px;
+    padding: 50px 50px 750px 50px;
     width: 50%;
+    height: 100%;
 }
 
 /*.wrapper{
@@ -142,8 +142,11 @@ h2 {
     width: 200px;
     height: 200px;
     position: relative;
+    float: left;
+    margin: 5px;
 }
 
+/*applies to portfolio page only*/
 h3 {
     position: absolute;
     background: orange;
@@ -154,6 +157,7 @@ h3 {
     padding: 20px 0;
 }
 
+/*applies to portfolio page only*/
 .boximage {
     margin: 5px 0;
 }
