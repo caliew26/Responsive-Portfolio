@@ -58,13 +58,11 @@ li {
 /*applies to index and contact pages only*/
 .main {
     clear:both;
-    margin-top: 50px;
-    margin-right: 175px;
-    margin-left: 175px;
-    margin-bottom: 50px;
+    margin-top: 50px 175px 50px 175px;
     border: 2px solid black;
     background: #ffffff;
-    padding: 25px;
+    padding: 20px;
+    line-height: 150%;
 }
 
 /*applies to all pages*/
@@ -117,20 +115,29 @@ h2 {
     padding-bottom: 5px;
     padding-top: 5px;
     text-shadow: 1px 1px black;
+    background: 
 }
 
 /*applies to index and contact pages only */
 .container {
-    /*border: 2px solid black;*/
     clear: both;
-    /*background-color: #ffffff;*/
-    /*background-image: portfolioplaceholder1.jpg;*/
-    margin-bottom: 50px;
-    margin-left: 5px;
-    line-height: 1;
-    border: 2px solid blue;
+    background-color: #ffffff;
+    margin: 50px;
+    line-height: 150%;
 }
-
+.thirdmain {
+    margin: 50px 100px;
+    background: #ffffff;
+    padding: 50px 50px 50px 50px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
 /*applies to portfolio page only*/
 .box-set {
     background: white;
@@ -166,6 +173,11 @@ h3 {
 .response {
     border: 1px solid  darkgray;
     color: lightgray;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+      
 }
 
 /*button on the contact page*/
@@ -195,10 +207,8 @@ footer {
         box-sizing: border-box;
     }
 
-    .main {
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+    .thirdmain {
+        margin: 50px;
     }
 }
 
