@@ -17,6 +17,7 @@ header {
     background: #ffffff;
     border-bottom: 2px solid black;
     padding: 50px;
+    text-align: right;
 }
 
 /*applies to all pages*/
@@ -187,16 +188,33 @@ footer {
 }
 
 
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     body {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     header {
         background: #4aaaa5;
         border: none;
         margin: 0;
         width: 100%;
+        display: inline-block;
+        padding: 20px;
     }
     h1 {
         float: left;
@@ -207,7 +225,7 @@ footer {
         padding: 0;
     }
 
-    nav {
+    navbar {
         width: 100%;
         text-align: center;
         background: whitesmoke;
@@ -226,54 +244,5 @@ footer {
         margin: 0;
         padding: 10px;
         background: #ffffff;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    header {
-        background: pink;
-        position: static;
-    }
-    nav {
-        width: 100%;
-        text-align: right;
-        background: whitesmoke;
-        padding-right: 10px;
-        float: right;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    body {
-        margin: 0;
-        padding: 0;
-    }
-    header {
-        background: #4aaaa5;
-        border: none;
-        margin: 0;
-        width: 100%;
-        font-size: 11px;
-        float: left;
-        padding-left: 100px;
-    }
-
-    h1 {
-        float: left;
-        background: none;
-        margin: 0;
-        padding: 20px;
-        float: left;
-        border: 2px solid red;
-    }
-
-    navbar {
-        width: 100%;
-        text-align: right;
-        background: whitesmoke;
-        padding: 0;
-        text-align:center;
-        position: relative;
-        display: inline-block;
     }
 }
