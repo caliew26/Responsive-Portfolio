@@ -13,7 +13,7 @@ body {
 
 /*applies to all pages*/
 header {
-    width: 100%;
+    width: auto;
     background: #ffffff;
     border-bottom: 2px solid black;
     padding: 50px;
@@ -23,13 +23,14 @@ header {
 h1 {
     color:#ffffff;
     background: #4aaaa5;
-    width: 300px;
+    width: auto;
     float: left;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 0;
-    margin-left: 150px;
-    margin-top: 5px;
+    margin-top: -25px;
+    margin-left: 50px;
+    padding: 10px;
     /*border-bottom: 2px solid #cccccc;*/
 }
 
@@ -42,7 +43,6 @@ nav {
     float:right;
     list-style-type:none;
     font-size: 11px;
-    margin-top: -45px;
 }
 
 #activelinks {
@@ -55,7 +55,7 @@ li {
 }
 
 /*applies to index and contact pages only*/
-.Main {
+.main {
     clear:both;
     margin-top: 50px;
     margin-right: 175px;
@@ -74,7 +74,7 @@ a:hover {
 
 /*applies to all pages*/
 a:visited {
-    color: green;
+    color: gray;
 }
 
 /*applies to all pages*/
@@ -185,56 +185,95 @@ footer {
     color: #cccccc;
     width: 100%;
 }
-/*
+
+
 @media only screen and (max-width: 640px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: #4aaaa5;
+        border: none;
+        margin: 0;
+        width: 100%;
+    }
+    h1 {
+        float: left;
+        background: none;
+        width: 100%;
+        margin: 0;
+        float: left;
+        padding: 0;
+    }
+
     nav {
-        background: greenyellow;
+        width: 100%;
+        text-align: center;
+        background: whitesmoke;
+        padding: 0;
+        clear: both;
     }
 
-    h2 {
-        color: red;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    h3 {
-        background: orange;
+    ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin: 0;
     }
 
-    h3 {
-        text-align: left;
+    .main{
+        margin: 0;
+        padding: 10px;
+        background: #ffffff;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    h5 {
-        color: yellow;
-    }
-
-    header {
-        float: left;
-        position: static;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    h5 {
-        color: orangered;
-    }
-
-    header {
-        float: left;
-        position: static;
-    }
-}
-
-@media only screen and (max-width: 980px) {
-    h5 {
-        color: blue;
-    }
-
     header {
         background: pink;
         position: static;
     }
-}*/
+    nav {
+        width: 100%;
+        text-align: right;
+        background: whitesmoke;
+        padding-right: 10px;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: #4aaaa5;
+        border: none;
+        margin: 0;
+        width: 100%;
+        font-size: 11px;
+        float: left;
+        padding-left: 100px;
+    }
+
+    h1 {
+        float: left;
+        background: none;
+        margin: 0;
+        padding: 20px;
+        float: left;
+        border: 2px solid red;
+    }
+
+    navbar {
+        width: 100%;
+        text-align: right;
+        background: whitesmoke;
+        padding: 0;
+        text-align:center;
+        position: relative;
+        display: inline-block;
+    }
+}
